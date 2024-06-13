@@ -1,0 +1,98 @@
+/* Login.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 900px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    margin: 20px 0;
+    font-size: 1.5rem;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .social-btn {
+    width: 48%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .google-btn {
+    background-color: #4285F4;
+    color: white;
+  }
+  
+  .email-btn {
+    background-color: #DB4437;
+    color: white;
+  }
+  
+  .or-divider {
+    margin: 20px 0;
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  .input-group {
+    margin: 10px 0;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #101010;
+    background-color: #efefef;
+  }
+  
+  .signin-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .register-btn,
+  .forgot-btn {
+    background: none;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+  }
+  
